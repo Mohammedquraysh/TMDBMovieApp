@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashScreen">
+
+    <fragment
+        android:id="@+id/popularMoviesScreen"
+        android:name="com.example.moviedbapp.ui.PopularMoviesScreen"
+        android:label="fragment_popular_movies_screen"
+        tools:layout="@layout/fragment_popular_movies_screen" />
+    <fragment
+        android:id="@+id/splashScreen"
+        android:name="com.example.moviedbapp.ui.SplashScreen"
+        android:label="fragment_splash_screen"
+        tools:layout="@layout/fragment_splash_screen" >
+        <action
+            android:id="@+id/action_splashScreen_to_popularMoviesScreen"
+            app:destination="@id/popularMoviesScreen" />
+    </fragment>
+</navigation>

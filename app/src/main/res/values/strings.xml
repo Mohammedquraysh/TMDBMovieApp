@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MovieDbApp</string>
+    <string name="token">87fc1d42a8c83d5f9ac3cb531bcb783e</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="released_date">Released Date:</string>
+    <string name="please_check_your_network">Please wait.......</string>
+
+</resources>
